@@ -7,4 +7,13 @@
 package us.greatapps4you.java.certification.strings;
 
 public class JavaStrings {
+    private String value;
+
+    public String getValue() {
+        return this.value;
+    }
+
+    public void storeValue(String value) {
+        this.value = value;
+    }
 }
